@@ -31,7 +31,6 @@ def param_func(paramData):
 			#the following if/else statements prevent stray 0s from appearing
 			if newSheet['C' + str(pos + 26)].value != "0":
 				newSheet['A' + str(pos + 26)] = paramRow[index][param["time"]]
-				newSheet['C' + str(pos + 26)].number_format = 'HH:MM'
 
 			else:
 				newSheet['C' + str(pos + 26)].number_format = ''
@@ -64,7 +63,6 @@ def param_func(paramData):
 			#the following if/else statements prevent stray 0s from appearing
 			if newSheet['C' + str(pos + 26)].value != "0":
 				newSheet['A' + str(pos + 26)] = paramRow[index][param["time"]]
-				newSheet['C' + str(pos + 26)].number_format = 'HH:MM'
 
 			else:
 				newSheet['C' + str(pos + 26)].number_format = ''
@@ -96,7 +94,6 @@ def param_func(paramData):
 			#the following if/else statements prevent stray 0s from appearing
 			if newSheet['C' + str(pos + 26)].value != "0":
 				newSheet['A' + str(pos + 26)] = paramRow[index][param["time"]]
-				newSheet['C' + str(pos + 26)].number_format = 'HH:MM'
 
 			else:
 				newSheet['C' + str(pos + 26)].number_format = ''
